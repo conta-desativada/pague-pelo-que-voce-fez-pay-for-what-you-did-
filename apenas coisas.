@@ -1,0 +1,12 @@
+import string
+import random
+import time
+
+caracteres = string.printable
+
+print("PAY FOR WHAT YOU DID!!!")
+print()
+
+while True:
+    print(random.choice(caracteres), end='', flush=True)
+    time.sleep(0.02)
